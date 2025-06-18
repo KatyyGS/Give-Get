@@ -1,0 +1,150 @@
+    body {
+      background-color: #F38916;
+    }
+
+    .contenedor {
+      border-radius: 12px;
+      background-color: rgb(254, 254, 254);
+      color: #f1eeee;
+      font-size: 12px;
+      padding: 30px;
+      width: 100%;
+      max-width: 530px;
+      height: 100%;
+      margin-left: 180px;
+      margin-right: 80px;
+      margin-bottom: 35px;
+    }
+
+    .reginput {
+      background-color: #EEEEEE;
+      border-radius: 6px;
+      color: #9C9B9B;
+      margin-top: 0px;
+      margin-left: 20px;
+      width: 90%;
+      height: 45px;
+      font-family: "Quicksand", sans-serif;
+      padding-left: 15px;
+    }
+.reginput:focus{
+    border: 3px solid #FF9500;
+    outline: none; /* quita el borde azul por defecto del navegador */
+}
+    .flecha {
+      margin-right: 10px;
+      display: block;
+      width: 3%;
+      height: 3%;
+    }
+
+    .Acceptar {
+      background-color: #FF9500;
+      border-radius: 8px;
+      color: #f1eeee;
+      margin-top: 10px;
+      padding: 15px 30px;
+      width: 90%;
+      font-size: medium;
+    }
+      .Acceptar:hover{
+       transition: transform 150ms ease-in-out, background-color 150ms ease-in-out;
+    color: #f1eeee; 
+    background-color: #6c6c6c;
+    }
+
+    .registerbtn {
+      margin-top: 5px;
+      text-align: center;
+    }
+
+    .bienvenida {
+      font-size: 30px;
+      margin-top: 2px;
+      margin-right: 36px;
+      margin-left: 30px;
+      margin-bottom: 15px;
+      text-align: center;
+      color: #847C7C;
+      font-family: "Onest", sans-serif;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .iniciar,
+    .iniciarsign {
+      font-size: small;
+      text-align: center;
+      display: inline-block;
+      margin-top: 25px;
+      margin-bottom: 45px;
+    }
+
+    .iniciar {
+      color: #959595;
+    }
+
+    .iniciarsign {
+      color: #FF9500;
+      cursor: pointer;
+    }
+
+    .iniciarsign:hover {
+      color: #e28d15df;
+    }
+
+    @media (max-width: 767px) {
+      .topcontenedor {
+        width: 60%;
+      }
+
+      .bienvenida {
+        font-size: 36px;
+      }
+    }
+
+    #fondo{
+        margin-right: 80px;
+    }
+    #servicesimg{
+        margin-right: 7px;
+        width: 35px;
+        height: 35px;
+    }
+    .servicestxt{
+font-size: small;
+      text-align: center;
+      display: inline-block;
+      margin-top: 10px;
+      color: #959595;
+      margin-bottom: 25px;
+    }
+
+.serviciosbtn:hover{
+       transition: transform 150ms ease-in-out, background-color 150ms ease-in-out;
+    transform: scale(1.1) translateY(-1px);
+    color: rgb(237, 234, 231); 
+    }
+
+.inputname{
+    text-align: left;
+    color: #847C7C;
+    font-family: "Onest", sans-serif;
+    font-size: medium;
+    margin-left: 20px;
+}
+.tyc{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.tycspan{
+    color: #959595;
+}
+
+#terminos{
+    margin-top: 10px;
+}
+
+#terminos:checked{
+ accent-color: #FF9500;
+}
